@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="KGD - Kaliningrad Graffiti Dataset">
+  <meta name="keywords" content="Kaliningrad, graffiti, dataset">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KGD: Kaliningrad Graffiti Dataset</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">KGD: Kaliningrad Graffiti Dataset</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://kantiana.ru/science/nauchnye-podrazdeleniya/tsentr-neyrotekhnologiy-i-mashinnogo-obucheniya/shusharina/">Vladimir Savinov</a>,</span>
+            <span class="author-block">
+                <a href="https://kantiana.ru/science/nauchnye-podrazdeleniya/tsentr-neyrotekhnologiy-i-mashinnogo-obucheniya/shusharina/">Gleb Kamyshov</a>,
+              </span>
+            <span class="author-block">
+              <a href="https://kantiana.ru/science/nauchnye-podrazdeleniya/tsentr-neyrotekhnologiy-i-mashinnogo-obucheniya/shusharina/">Viktor Sapunov</a>,</span>
+            <span class="author-block">
+              <a href="https://kantiana.ru/science/nauchnye-podrazdeleniya/tsentr-neyrotekhnologiy-i-mashinnogo-obucheniya/shusharina/">Natalia Shusharina</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Baltic Center for Neurotechnology and Artificial Intelligence, Immanuel Kant Baltic Federal University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/noonv/labelme_yolo_utils"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://disk.yandex.ru/d/PJ2leUccDESDwA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">About</h2>
+        <div class="content has-text-justified">
+          <p>
+            Graffiti, as street art, is not only a form of self-expression, but also an act of vandalism. For city authorities, graffiti poses a problem because it damages public and private property and degrades the appearance of buildings, architectural objects and other elements of the city. This may reduce the commercial attractiveness of the properties and potentially reduce the flow of tourists. The appearance of graffiti in a certain location contributes to the emergence of new graffiti, which increases the cost of removing it. Therefore, it is important to have effective methods for timely detection of graffiti.
+            <p>
+            <p>
+            Considering the high variability of graffiti and their regional characteristics, a specialized dataset containing 1927 photographs of graffiti was collected and annotated.
+          </p>
+          <p>
+          The "KGD: Kaliningrad Graffiti Dataset" is a digital photographs taken with a mobile phone.
+          The photographs were taken from the beginning of 2022 to the middle of 2023, at different times of the year and day, and in different areas of the city of Kaliningrad (Russia).
+          <p>
+          Subsequent processing of the photographs included reducing the size of the photographs and subsequent labeling of graffiti using the <a href="https://github.com/labelmeai/labelme">labelme</a> program.<br>
+          The initial labeling was carried out entirely manually, and subsequent labeling was carried out using a Semi-Supervised Learning method: a model was trained on previously labeled data, which was then used to <a href="https://github.com/noonv/labelme_yolo_utils">pre-label</a> new unlabeled data. The preliminary labeling results were then checked and corrected manually.
+          </p>
+          <p>
+          The accuracy of graffiti detection on the test set (20%) using YOLOv5s (7.2 million parameters), pre-trained on the <a href="https://cocodataset.org">COCO dataset</a> and adapted for detecting 1 class of objects (graffiti), was 0.82.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Examples of labeled graffiti (bounding boxes).</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <img src="./static/images/kgd_1.png" />
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <img src="./static/images/kgd_2.png" />
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <img src="./static/images/kgd_3.png" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Usefull links.
+          </p>
+          <p>
+            <a href="https://github.com/labelmeai/labelme">labelme</a> Image Polygonal Annotation with Python.
+          </p>          
+          <p>
+            <a href="https://github.com/noonv/labelme_yolo_utils">labelme_yolo_utils</a> Utils for labelme and YOLOv5 detector.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section" id="Cite">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Cite</h2>
+    <pre><code></code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>Page template borrowed from <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
