@@ -61,7 +61,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/noonv/labelme_yolo_utils"
+                <a href="https://github.com/noonv/KGD/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -95,19 +95,19 @@
         <div class="content has-text-justified">
           <p>
             Graffiti, as street art, is not only a form of self-expression, but also an act of vandalism. For city authorities, graffiti poses a problem because it damages public and private property and degrades the appearance of buildings, architectural objects and other elements of the city. This may reduce the commercial attractiveness of the properties and potentially reduce the flow of tourists. The appearance of graffiti in a certain location contributes to the emergence of new graffiti, which increases the cost of removing it. Therefore, it is important to have effective methods for timely detection of graffiti.
-            <p>
-            <p>
+          </p>
+          <p>
             Considering the high variability of graffiti and their regional characteristics, a specialized dataset containing 1927 photographs of graffiti was collected and annotated.
           </p>
           <p>
-          The "KGD: Kaliningrad Graffiti Dataset" is a digital photographs taken with a mobile phone.
-          The photographs were taken from the beginning of 2022 to the middle of 2023, at different times of the year and day, and in different areas of the city of Kaliningrad (Russia).
+            The "KGD: Kaliningrad Graffiti Dataset" is a digital photographs taken with a mobile phone.
+            The photographs were taken from the beginning of 2022 to the middle of 2023, at different times of the year and day, and in different areas of the city of Kaliningrad (Russia).
           <p>
-          Subsequent processing of the photographs included reducing the size of the photographs and subsequent labeling of graffiti using the <a href="https://github.com/labelmeai/labelme">labelme</a> program.<br>
-          The initial labeling was carried out entirely manually, and subsequent labeling was carried out using a Semi-Supervised Learning method: a model was trained on previously labeled data, which was then used to <a href="https://github.com/noonv/labelme_yolo_utils">pre-label</a> new unlabeled data. The preliminary labeling results were then checked and corrected manually.
+            Subsequent processing of the photographs included reducing the size of the photographs and subsequent labeling of graffiti using the <a href="https://github.com/labelmeai/labelme">labelme</a> program.<br>
+            The initial labeling was carried out entirely manually, and subsequent labeling was carried out using a Semi-Supervised Learning method: a model was trained on previously labeled data, which was then used to <a href="https://github.com/noonv/labelme_yolo_utils">pre-label</a> new unlabeled data. The preliminary labeling results were then checked and corrected manually.
           </p>
           <p>
-          The accuracy of graffiti detection on the test set (20%) using YOLOv5s (7.2 million parameters), pre-trained on the <a href="https://cocodataset.org">COCO dataset</a> and adapted for detecting 1 class of objects (graffiti), was 0.82.
+            The accuracy of graffiti detection on the test set (20%) using YOLOv5s (7.2 million parameters), pre-trained on the <a href="https://cocodataset.org">COCO dataset</a> and adapted for detecting 1 class of objects (graffiti), was 0.82.
           </p>
         </div>
       </div>
@@ -158,7 +158,18 @@
 <section class="section" id="Cite">
   <div class="container is-max-desktop content">
     <h2 class="title">Cite</h2>
-    <pre><code></code></pre>
+    <pre><code>
+      @INPROCEEDINGS{10718559,
+        author={Savinov, Vladimir and Kamyshov, Gleb and Sapunov, Viktor and Shusharina, Natalia},
+        booktitle={2024 8th Scientific School Dynamics of Complex Networks and their Applications (DCNA)}, 
+        title={Using artificial neural networks for graffiti detection}, 
+        year={2024},
+        volume={},
+        number={},
+        pages={213-215},
+        keywords={YOLO;Accuracy;Urban areas;Computer architecture;Artificial neural networks;Complex networks;Streaming media;Cameras;Streams;graffiti;detection;neural network},
+        doi={10.1109/DCNA63495.2024.10718559}}      
+    </code></pre>
   </div>
 </section>
 

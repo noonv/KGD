@@ -1,0 +1,14 @@
+
+train: /mnt/Data/graffiti/kgd/train
+
+val: /mnt/Data/graffiti/kgd/test
+
+# number of classes
+nc: 1
+
+# class names
+names: ["graffiti"]
+
+# yolov5 train --data kaliningrad_graffiti_data.yaml --cfg yolov5s_1class.yaml --weights yolov5s.pt --imgsz 1920 --batch-size 1 --epochs 100
+# yolov5 export --weights runs/train/exp/weights/best.pt --imgsz [1088,1920] --include [onnx] --device 0
+# yolov5 detect --weights runs/train/exp/weights/best.onnx --imgsz [1088,1920] --source /mnt/Data/graffiti/kgd/test/images --data ./graffiti_data.yaml --device 0
