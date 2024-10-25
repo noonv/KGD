@@ -4,6 +4,9 @@ This is information page about Kaliningrad Graffiti Dataset (KGD).
 
 https://noonv.github.io/KGD/
 
+Article:  
+[Using artificial neural networks for graffiti detection](https://ieeexplore.ieee.org/document/10718559)
+
 Cite:
 ```
 @INPROCEEDINGS{10718559,
